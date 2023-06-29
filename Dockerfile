@@ -1,4 +1,4 @@
-FROM pretalx/standalone:stable
+FROM pretalx/standalone:latest
 USER root
 RUN python3 -m pip install --upgrade pip
 RUN pip3 install --upgrade wheel
